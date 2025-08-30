@@ -20,6 +20,7 @@ Libraries Required:
 * Decision Tree Regressor
 * XGB Regressor
 * Extratrees Regressor
+
 Tools Required:
 * Visual studio code
 * Python  
@@ -28,6 +29,7 @@ Process:
 * The link of the raw-Dataset (Excel file) will be provided in  the problem_statement of the project
 * Load the Dataset, perform necessary transformation on the file and make into a suitable format.
 * Performed Pre-processing steps
+  
     1.Handling Missing Values and Imputing with Mean, Median and mode values.
     2.Checked for Duplicate Rows in the dataset.
     3.Identified outliers using Boxplot and treated them usiing IQR method.
