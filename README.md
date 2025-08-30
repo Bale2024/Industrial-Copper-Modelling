@@ -1,6 +1,8 @@
 # Industrial-Copper-Modelling
 The project deals with the challenges of industry data (Copper) related to sales and pricing. The aim of the project is to predict status while capturing leads and selling price of the Copper based on the User input. The challenges are solved using Machine Learning techniques (Classification and Regression).
 
+
+```
 Libraries Required:
 1. Dashboard Creation:
 * Streamlit
@@ -20,10 +22,15 @@ Libraries Required:
 * Decision Tree Regressor
 * XGB Regressor
 * Extratrees Regressor
+```
 
+
+```
 Tools Required:
 * Visual studio code
-* Python  
+* Python
+```
+  
 ```
 Process:
 * The link of the raw-Dataset (Excel file) will be provided in  the problem_statement of the project
@@ -45,7 +52,7 @@ Process:
     7.Encoding is performed on the Categorical features as per the requirement.
 
     8.Converted the Delivery date and Item date into the date time format and Extracted year as part of feature Engineering.
- ```   
+    
 * The dataset is now split into train and test cases, as a part of ML pipeline.
 * The Classification and Regression ML modes are trained with the train data.
 * For Predicting the STATUS and SELLING_PRICE(Target Features), the models will be evaluated on the test data.
@@ -55,6 +62,7 @@ Process:
 * For Regression task, XGBRegressor outperformed the other models with R2-score of 0.88(closer to 1) and hence considered as a best fit.
 * The best models and encodings are pickled using pickle.dump method. 
 * As a part of Front End Visualization, An app has developed using Streamlit where User will provide inputs to predict status and Selling_price.
+```
 
 
 
