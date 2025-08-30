@@ -6,19 +6,25 @@ The project deals with the challenges of industry data (Copper) related to sales
 Libraries Required:
 1. Dashboard Creation:
 * Streamlit
+
 2. Calculation :
 * Numpy
 * Pandas
 * Scipy
+
 3. Data Visualization:
 * Seaborn
+
 * Matplotlib
+
 4. MAchine Learning:
 * Scikit-learn
 * imblearn
+
 * Random Forest Classifier
 * XGB Classifier
 * Logistic Regression
+
 * Decision Tree Regressor
 * XGB Regressor
 * Extratrees Regressor
@@ -34,7 +40,9 @@ Tools Required:
 ```
 Process:
 * The link of the raw-Dataset (Excel file) will be provided in  the problem_statement of the project
+
 * Load the Dataset, perform necessary transformation on the file and make into a suitable format.
+
 * Performed Pre-processing steps
   
     1.Handling Missing Values and Imputing with Mean, Median and mode values.
