@@ -54,13 +54,21 @@ Process:
     8.Converted the Delivery date and Item date into the date time format and Extracted year as part of feature Engineering.
     
 * The dataset is now split into train and test cases, as a part of ML pipeline.
+
 * The Classification and Regression ML modes are trained with the train data.
+
 * For Predicting the STATUS and SELLING_PRICE(Target Features), the models will be evaluated on the test data.
+
 * EValuation metrics like Accuracy,Precision, Recall, F1 Score are calculated using Classification Report.
+
 * The ROC-AUC Curves are generated for the different models used, and R2-score are calculated.
+
 * For Classification task, Random forest Classifier was chosen since it had a high accuracy of 92.5%
+
 * For Regression task, XGBRegressor outperformed the other models with R2-score of 0.88(closer to 1) and hence considered as a best fit.
+
 * The best models and encodings are pickled using pickle.dump method. 
+
 * As a part of Front End Visualization, An app has developed using Streamlit where User will provide inputs to predict status and Selling_price.
 ```
 
