@@ -1,6 +1,12 @@
 # Industrial-Copper-Modelling
 ```
-The project deals with the challenges of industry data (Copper) related to sales and pricing. The aim of the project is to predict status while capturing leads and selling price of the Copper based on the User input. The challenges are solved using Advanced Machine Learning techniques (Classification and Regression) where the less complex and noisy data is handled.
+*The project deals with the challenges of industry data (Copper Modelling) related to sales and pricing.
+
+*The aim of the project is to predict status while capturing leads and selling price of the Copper based on the User input.
+
+*The challenges are solved using  Machine Learning algorithms (Classification and Regression) where the less complex, skewed and noisy data is handled
+
+ using Advanced techniques like Data Normalisation, Feature Scaling and Outlier Detection.
 ```
 
 
@@ -22,7 +28,9 @@ Libraries Required:
 4. MAchine Learning:
 * Scikit-learn
 * imblearn
+* XGBoost
 
+# Machine Learning Algorithms 
 * Random Forest Classifier
 * XGB Classifier
 * Logistic Regression
@@ -79,7 +87,7 @@ Process:
 
 * The best models and encodings are pickled using pickle.dump method. 
 
-* As a part of Front End Visualization, An app has developed using Streamlit where User will provide inputs to predict status and Selling_price.
+* As a part of Front End Visualization, An app has developed using Streamli Module where User will provide inputs to predict status and Selling_price.
 ```
 
 
